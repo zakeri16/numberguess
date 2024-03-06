@@ -9,7 +9,7 @@ function generateCpuNumber() {
 }
 window.onload = function () {
   generateCpuNumber;
-  alert(number);
+  
 };
 document
   .querySelector("#guessButton")
