@@ -1,0 +1,80 @@
+@font-face {
+  font-family: yekan;
+  src: url("fonts/Yekan.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: yekan;
+}
+
+body {
+  direction: rtl;
+  background: #2c3e50;
+}
+
+#mainBox {
+  border: 0px solid #8e44ad;
+  min-height: 700px;
+  padding: 25px;
+  margin: 25px;
+  border-radius: 50px;
+  box-shadow: inset 0 0 30px #9b59b6, inset 20px 0 30px #9b59b6,
+    inset -20px 0 30px #9b59b6, inset 20px 0 30px #9b59b6,
+    inset -20px 0 30px #9b59b6, 0 0 30px #9b59b6, -10px 0 30px #9b59b6,
+    10px 0 30px #9b59b6;
+}
+
+#topHeader {
+  text-align: left;
+  padding: 25px;
+  direction: ltr;
+}
+
+#mainNumber {
+  text-align: center;
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 200px;
+}
+
+#guessNumberHolder {
+  text-align: center;
+}
+
+#guessNumber {
+  width: 500px;
+  padding: 25px 10px;
+  font-size: 32px;
+  text-align: center;
+  border-radius: 50px;
+  border: 1px solid #fff;
+  box-shadow: 1px 1px 10px 10px #8e44ad;
+}
+
+#guessButton {
+  width: 200px;
+  height: 180px;
+  margin: 25px 25px 5px;
+  font-size: 32px;
+  border-radius: 50px;
+  background: transparent;
+  color: #fff;
+  border: none;
+  text-align: center;
+  background-image: url("images/btn.png");
+  background-size: 100%;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+#guessButton:hover {
+  transform: scale(0.8);
+}
+#result {
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  margin-bottom: 35px;
+}

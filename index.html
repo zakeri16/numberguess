@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>number guessing game</title>
+    <link href="src/style.css" rel="stylesheet" />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </head>
+
+  <body>
+    <main id="mainBox">
+      <header id="topHeader">
+        <img
+          id="heart1"
+          class="heart"
+          src="src/images/heart.png"
+          width="50px"
+        />
+        <img
+          id="heart2"
+          class="heart"
+          src="src/images/heart.png"
+          width="50px"
+        />
+        <img
+          id="heart3"
+          class="heart"
+          src="src/images/heart.png"
+          width="50px"
+        />
+        <img
+          id="heart4"
+          class="heart"
+          src="src/images/heart.png"
+          width="50px"
+        />
+        <img
+          id="heart5"
+          class="heart"
+          src="src/images/heart.png"
+          width="50px"
+        />
+      </header>
+      <section id="mainSection">
+        <h1 id="mainNumber">?</h1>
+        <div id="guessNumberHolder">
+          <input id="guessNumber" type="number" min="0" max="999" />
+          <br />
+          <input id="guessButton" type="button" />
+        </div>
+        <br />
+        <h1 id="result"></h1>
+      </section>
+    </main>
+
+    <script src="src/main.js"></script>
+  </body>
+</html>
